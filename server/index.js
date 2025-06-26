@@ -9,7 +9,8 @@ const {
   McpError,
 } = require('@modelcontextprotocol/sdk/types.js');
 const axios = require('axios');
-require('dotenv').config();
+const path = require('path');
+require('dotenv').config({ path: path.join(__dirname, '..', 'config', '.env') });
 
 class JiraServer {
   constructor() {

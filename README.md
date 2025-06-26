@@ -24,6 +24,8 @@ JIRA_API_TOKEN=your-api-token
 DEFAULT_PROJECT_KEY=PROJ
 ```
 
+**참고**: 설정 파일들은 `config/` 폴더에 자동으로 생성됩니다.
+
 ### 2. Jira API 토큰 생성
 
 1. Jira에 로그인
@@ -36,7 +38,25 @@ DEFAULT_PROJECT_KEY=PROJ
 npm install
 ```
 
-### 4. 서버 실행
+### 4. 자동 설정 (권장)
+
+대화형 설정 도구를 사용하여 쉽게 설정할 수 있습니다:
+
+```bash
+npm run setup
+```
+
+이 명령어는:
+- Jira 연결 정보를 입력받습니다
+- `config/.env` 파일을 자동으로 생성합니다
+- `config/claude_desktop_config.json` 파일을 자동으로 생성합니다
+- Claude Desktop 설정 방법을 안내합니다
+
+### 5. 수동 설정 (선택사항)
+
+자동 설정 대신 수동으로 설정하려면 `config/.env.example` 파일을 복사하여 `config/.env`로 이름을 바꾸고 값을 수정하세요.
+
+### 6. 서버 실행
 
 ```bash
 npm start

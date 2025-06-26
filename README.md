@@ -2,6 +2,10 @@
 
 Jira와 Claude를 연결하는 Model Context Protocol (MCP) 서버입니다.
 
+<a href="https://glama.ai/mcp/servers/@SunWooBang/jira-mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@SunWooBang/jira-mcp-server/badge" alt="Jira Server MCP server" />
+</a>
+
 ## 기능
 
 - **이슈 검색**: JQL을 사용하여 Jira 이슈 검색

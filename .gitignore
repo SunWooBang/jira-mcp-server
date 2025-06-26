@@ -3,11 +3,9 @@ node_modules/
 npm-debug.log*
 
 # Environment variables
-server/.env
 config/.env
 
 # Claude config (contains sensitive data)
-server/claude_desktop_config.json
 config/claude_desktop_config.json
 
 # OS generated files

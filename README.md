@@ -133,4 +133,3 @@ Claude에서 다음과 같은 명령을 사용할 수 있습니다:
 ## 라이선스
 
 MIT License
->>>>>>> master

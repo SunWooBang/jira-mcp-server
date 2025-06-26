@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
 const axios = require('axios');
-require('dotenv').config();
+const path = require('path');
+require('dotenv').config({ path: path.join(__dirname, '..', 'config', '.env') });
 
 async function testConnection() {
   console.log('🔍 Jira 연결을 테스트합니다...\n');

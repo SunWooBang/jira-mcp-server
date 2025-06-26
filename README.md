@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# jira-mcp-server
-Jira - LLM 모델을 연결할  MCP 서버
-=======
 # Jira MCP Server
 
 Jira와 Claude를 연결하는 Model Context Protocol (MCP) 서버입니다.
